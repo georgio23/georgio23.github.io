@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: white;
+  color: black;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  text-decoration: none;
+}
+
+
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+
+/* Main column */
+.main {   
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+.link {
+text-decoration: none;
+}
+
+.link-hex {
+color: #FF5733;
+}
+
+.link-hex2 {
+color: #33a8ff;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>George Mihailescu</h1>
+</div>
+
+<div class="navbar">
+  <a href="home.html">Home</a>
+  <a href="pub.html">Publications</a>
+  <a href="cv.html"class="active">CV</a>
+  <a href="materials.html">Useful materials</a>
+</div>
+
+<div class="main">
+
+<!-- ############################ Intro to CV ############################ -->
+<p> Below is a snapshot of my CV with a short summary of my education and selected research activities: a full version can be seen by clicking here. </p>
+<!-- ####################################################################  -->
+
+
+
+<!-- ######################### Education Section ######################### -->
+<h2> Education </h2>
+<em> 2021 to 2025 - PhD Theoretical Physics, University College Dublin </em>
+<ul>
+  <li> Thesis title: Dynamics and control in quantum nanoelectronic devices.
+  <li> Supervised by: Dr. Andrew K. Mitchell and Dr. Steve Campbell.
+</ul>  
+
+<em> 2019 to 2020 - MSc Applied Mathematics and Theoretical Physics, University College Dublin </em>
+<ul>
+  <li> Degree Grade: 1st Class Honours.
+  <li> Thesis title: Optimal control for charging quantum batteries.
+  <li> Thesis Grade: 1st Class Honours. 
+  <li> Supervised by: Dr. Steve Campbell.
+</ul>  
+
+<em> 2015 to 2019 - BSc Physics with Biomedical Sciences, Dublin City University </em>
+<ul>
+  <li> Degree Grade: 1st Class Honours.
+  <li> Thesis title: Applications of artificial neural networks in quantum anybody problems.
+  <li> Thesis Grade: 1st Class Honours. 
+  <li> Supervised by: Dr. Kevin McGuiness and Dr. Tony Cafolla.
+</ul>  
+<!-- ####################################################################  -->
+
+<!-- ######################## Supervision Section ######################## -->
+<h2> Supervision </h2>
+<em> 2023 - 2024, Bachelors' Thesis </em>
+<ul>
+  <li> Thesis title: Controlled quantum sensing.
+  <li> Main supervisor: Dr. Steve Campbell.
+  <li> Institute: University College Dublin.
+</ul>
+<!-- ####################################################################  -->
+
+<!-- ######################### Teaching Section ########################## -->
+<h2> Teaching </h2>
+<em> 2023 Trimester 1: Introductory Quantum Mechanics </em> <br>
+<em> 2022 Trimester 2: Quantum Theory of Condensed Matter Physics </em> <br>
+<em> 2022 Trimester 1: Classical Mechanics and Relativity </em> <br>
+<em> 2021 Trimester 2: Quantum Theory of Condensed Matter Physics </em> <br>
+<em> 2021 Trimester 1: Fields Waves and Light </em> <br>
+<em> 2021 Trimester 1: Physics Labs </em> <br>
+<!-- ####################################################################  -->
+
+
+<!-- ######################## Peer Review Section ######################## -->
+<h2> Peer Review Activity </h2>
+<em> 2024 to present </em>
+<ul>
+  <li> Quantum Science and Technology: 1 review article (IOP publishing).
+  <li> New journal of physics: 1 review article (IOP Publishing).
+  <li> Physica B: Condensed Matter: 1 review article (Elsevier).
+</ul>
+<!-- ####################################################################  -->
+
+
+<!-- ####################### Invited Talks Section ####################### -->
+<h2> Invited Talks </h2>
+<em> May 2024  </em>
+<ul>
+  <li> Title: Multiparameter critical quantum metrology with impurity probes.
+  <li> Location: Chengdu, China.
+  <li> Institute: University of Electronic Science and Technology of China.
+  <li> Invited by: Prof. Abolfazl Bayat.
+</ul>
+
+<em> April 2024  </em>
+<ul>
+  <li> Title: Quantum sensing in strongly correlated electron systems.
+  <li> Location: Utrecht, Netherlands.
+  <li> Institute: University of Utrecht. 
+  <li> Invited by: Dr. Lars Fritz.
+</ul>
+
+<em> March 2024  </em>
+<ul>
+  <li> Title: From single parameter to multi parameter quantum sensing.
+  <li> Location: York, England.
+  <li> Institute: University of York. 
+  <li> Invited by: Dr. Irene D'Amico.
+</ul>
+
+<em> January 2024  </em>
+<ul>
+  <li> Title: Multiparameter critical quantum metrology with impurity probes.
+  <li> Location: Dublin, Ireland.
+  <li> Institute: Trinity College Dublin.
+  <li> Invited by: Dr. Mark Mitchison.
+</ul>
+<!-- ####################################################################  -->
+
+
+<!-- ################## Conferences and Schools Section ################## -->
+<h2> Selected Conferences and Schools </h2>
+
+<em> IOP Ireland Spring Conference, Conference Presentation </em> 
+<ul>
+  <li> Presentation Title: Quantum sensing; from fundamental uncertainties to experimental imprecision.
+  <li> Date: April, 2024.
+  <li> Accomplishment: Ross medal finalist.
+  <li> Location: Dublin, Ireland.
+</ul>
+
+<em> Quantum Metrology in Interacting and Open Systems, QUMINOS, Conference Poster </em> 
+<ul>
+  <li> Poster Title: Multiparameter critical quantum metrology with impurity probes.
+  <li> Date: February, 2024.
+  <li> Location: Les Diablerets, Switzerland.
+</ul>
+
+<em> Coherent Quantum Dynamics, Autumn School Presentation and Participant </em> 
+<ul>
+  <li> Presentation Title: Temperature estimation of quantum environments with impurity probes.
+  <li> Date: September, 2023.
+  <li> Institution: Okinawa Institute of Science and Technology, OIST.
+  <li> Location: Okinawa, Japan.
+</ul>
+
+<em> American Physical Society March Meeting, Conference Presentation </em> 
+<ul>
+  <li> Presentation Title: Temperature estimation of quantum environments with impurity probes
+  <li> Date: March, 2023.
+  <li> Location: Las Vegas, USA.
+</ul>
+
+<em> Quantum Festival, Conference Poster </em> 
+<ul>
+  <li> Poster Title: Thermometry of strongly correlated quantum environments.
+  <li> Date: September, 2022.
+  <li> Location: Dublin, Ireland.
+</ul>
+<!-- ####################################################################  -->
+
+
+</div>
+</div>
+
+</body>
+</html>
